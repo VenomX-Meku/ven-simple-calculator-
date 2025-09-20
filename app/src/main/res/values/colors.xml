@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App primary colors -->
+    <color name="primaryColor">#FF5722</color>       <!-- Buttons, AppBar -->
+    <color name="secondaryColor">#4CAF50</color>     <!-- Accent color, secondary buttons -->
+
+    <!-- Background and text -->
+    <color name="backgroundColor">#FFFFFF</color>    <!-- App background -->
+    <color name="textColor">#000000</color>          <!-- Text color -->
+
+    <!-- Optional: button highlight or pressed state -->
+    <color name="buttonPressedColor">#FF7043</color> <!-- Slightly darker orange -->
+</resources>

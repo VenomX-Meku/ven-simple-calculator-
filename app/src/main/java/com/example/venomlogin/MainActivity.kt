@@ -35,6 +35,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnSub.setOnClickListener(this)
         btnMultiply.setOnClickListener(this)
         btnDivision.setOnClickListener(this)
+
+        // Clear button functionality
+        val clearBtn: Button = findViewById(R.id.btn_clear)
+        val etA: EditText = findViewById(R.id.et_a)
+        val etB: EditText = findViewById(R.id.et_b)
+        val resultTv: TextView = findViewById(R.id.result_tv)
+
+        clearBtn.setOnClickListener {
+            etA.text.clear()        // clear first input
+            etB.text.clear()        // clear second input
+            resultTv.text = "Result" // reset the result text
+        }
+
+
     }
 
     override fun onClick(v: View?) {
